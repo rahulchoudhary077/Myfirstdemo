@@ -26,7 +26,10 @@ public class displayImage extends HttpServlet {
 			// Do your thing if the image is not supplied to the request URI.
 
 			response.sendError(HttpServletResponse.SC_NOT_FOUND);
+System.out.println("change in this file them ");
 			return;
+
+
 		}
 
 		// Decode the file name (might contain spaces and on) and prepare file
